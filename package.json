@@ -1,0 +1,23 @@
+{
+  "name": "probando-archivos",
+  "version": "1.0.0",
+  "description": "Aplicacion que Carga Informacion desde Archivos Planos y los Inserta en Una Base de Datos.",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "William Mosquera",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
